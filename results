@@ -1,0 +1,17 @@
+Phase1 it #	real time
+	1	00.023
+	10	00.224
+	100	02.918
+	1000	22.032
+
+Phase2 it #	real time
+	1	00.017
+	10	00.145
+	100	01.473
+	1000	13.888
+
+
+
+
+
+The use of an extra proccess on the test system shaves off about 1/3 of the time. this is not very noticable on small scales but the ~10 second difference for the 1000 iterations. If you are attempting to run a program on massive scale with thousands or millions of iterations. There is a potential limit with the speed of the print statments thought.
